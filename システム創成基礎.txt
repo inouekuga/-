@@ -1,0 +1,110 @@
+#include <stdio.h>
+
+int main()
+{
+    /*足し算するためのコードです
+    あああああああああ*/
+    int a,b,c;
+    a = 2;
+    b = 3;
+    c = a + b;
+    printf("%d\n",c);
+
+    return 0;
+}
+
+
+
+
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    printf("こんにちは");
+    return 0;
+}
+
+
+
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    /*メッセージを表示します*/
+    printf("こんにちは");
+    return 0;
+}
+
+
+
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    /*　コメントが長くなる場合は
+    　　このように複数行に書くこともできます　*/
+    printf("Hello Programming in C World!\n");
+
+    return 0;
+}
+
+
+
+
+
+
+#include <stdio.h>
+
+int main(void)
+{
+    /*　メッセージを表示します　*/
+    printf("Hello Programming in C World!\n");     /* Helloを表示 */
+    printf("Good-bye Programming in C World!\n");  /* Good-byeを表示 */
+
+    return 0;
+}
+
+
+
+
+
+#include <stdio.h>
+
+int main(void)
+{
+    /*　メッセージを表示します　*/
+    /*  Helloを表示しないように変更する
+    printf("Hello Programming in C World!\n");     /* Helloを表示 */
+    */
+    printf("Good-bye Programming in C World!\n");  /* Good-byeを表示 */
+
+    return 0;
+}
+
+
+
+
+
+
+
+#include <stdio.h>
+
+int main(void)
+{
+    // メッセージを表示します　
+    /*  Helloを表示しないように変更する
+    printf("Hello Programming in C World!\n");     /* Helloを表示 
+    */
+    printf("Good-bye Programming in C World!\n");  /* Good-byeを表示 */
+
+    return 0;
+}
